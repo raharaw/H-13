@@ -12,7 +12,7 @@
   .heading h2 {
     font-size: 20px;
   }
-
+  
   .lesson {
     width: 50%;
     margin-bottom: 50px;
@@ -29,11 +29,11 @@
   .btn {
     width : 100%;
   }
-
-  .container span {
-    padding-top: 20px;
+  
+  .facebook {
+    margin-bottom: 10px;
   }
-
+  
   /* Awal Rendy */
 
   .top-wrapper h1 {

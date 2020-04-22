@@ -29,24 +29,48 @@ a {
   margin: 0 auto;
 }
 
+/* Awal Rendy */
+
 .top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
-  background-size: cover;
-  color: white;
-  text-align: center;
+  padding: 100px 0 100px 0;
+  color: #34495e;
+  text-align: left;
+  height: 550px;
 }
 
 .top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
+  color: #34495e;
+  font-size: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
+  font-family: 'Montserrat', sans-serif;
 }
 
+
 .top-wrapper p {
-  opacity: 0.7;
-  margin-bottom: 3px;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #95a5a6;
+}
+
+.top-wrapper span {
+  color:#2980b9;
+}
+
+.illustrasi {
+  height: 350px;
+  float: right;
+  padding-top: 10px;
+}
+
+.signup {
+  background-color: #2980b9;
+  margin-top: 30px;
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
 .btn-wrapper {
@@ -54,22 +78,8 @@ a {
   margin: 20px 0;
 }
 
-.btn-wrapper p {
-  margin: 10px 0;
-}
+/* Akhir Rendy */
 
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
 
 .btn {
   padding: 12px 24px;

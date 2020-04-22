@@ -139,23 +139,49 @@ header {
 }
 
 .heading h2 {
-  font-weight: normal;
+  font-weight: bold;
 }
-
+/* Start Rahar */
 .lesson {
   float: left;
   width: 25%;
+  padding: 20px;
+  transition: transform .2s;
+  cursor: default;
 }
 
 .lesson-icon {
-  position: relative;
+	width: 100%;
+	position: relative;
+	margin-bottom: 5px;
 }
 
-.lesson-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
+.lesson-icon img{
+	/* margin-bottom: 5px; */
+	height: auto;
+	width: 100%;
+	border-radius: 10px;
+	/* border-radius: 10px; */
+}
+
+.lesson:hover {
+  transform: scale(1.1);
+  border: 2px solid #3498db;
+  border-radius: 5px;
+}
+
+/* End Rahar */
+
+.text {
   color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .text-contents {

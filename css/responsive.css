@@ -17,6 +17,10 @@
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
 
+  #formKomentar{
+    width: 100%;
+  }
+
   .header-right{
     display: none;
   }

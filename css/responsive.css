@@ -7,10 +7,18 @@
   .heading h2 {
     font-size: 20px;
   }
+
+  #menu-icon {
+    display: none;
+  }
     
   .lesson {
     width: 50%;
     margin-bottom: 50px;
+  }
+
+  #formKomentar{
+    width: 75%;
   }
 }
 
@@ -25,7 +33,7 @@
     display: none;
   }
   
-  .menu-icon {
+  #menu-icon {
     display: block;
   }
   

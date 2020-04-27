@@ -256,12 +256,19 @@ footer {
 .footer-list {
   float: right;
 }
+
 .footer-list li {
-  color: white;
   padding-bottom: 20px;
   list-style-type: none;
   font-size: 10px;
   margin-right: 25px;
+}
+.footer-list a {
+  color: white;
+  opacity: 0.7;
+}
+.footer-list a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 /* Regi */
